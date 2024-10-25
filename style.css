@@ -1,0 +1,53 @@
+.search{
+    width: 15rem;
+    margin-right: 10rem;
+    display: inline-block;
+}
+.brand{
+    background: #15C9CF;
+    background: linear-gradient(to right, #218fCf 0%, #86cf46 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+  }
+.modal{
+    backdrop-filter: blur(5px);
+}
+#coustomtable th,
+coustomtable td{
+    padding: 0.5rem !important;
+}
+
+#modalContainer {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+
+    border-radius: 9px;
+    
+}
+
+/* Style for the modal overlay */
+#modalOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    backdrop-filter: blur(5px);
+}
+
+#searchresult{
+    display: none;
+}
